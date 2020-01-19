@@ -1,6 +1,7 @@
 #Plantilla para el pre procesado de Datos
 #Importar el dataset
 dataset = read.csv('Data.csv')
+#dataset = dataset[, 2:3]
 
 
 #Dividir los datos en conjunto de entrenamiento y conjunto de test
